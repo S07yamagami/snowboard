@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title')->comment('商品名');
             $table->string('category')->comment('カテゴリー');
-            //$table->string('price')->comment('価格');
+            $table->string('price')->comment('価格');
+            $table->text('detail')->comment('商品詳細');
 
 
 

@@ -65,7 +65,8 @@ class getData extends Command
                         Item::create([
                             'title' => $pref['title'],
                             'category' => $category,
-                            'price' => $pref['price_max'], // 価格を追加、商品説明、画像が欲しい
+                            'price' => $pref['price_max'], 
+                            'detail' => $pref['body_html'],
                         ]);
                         break;
                     }
