@@ -67,6 +67,7 @@ class getData extends Command
                             'category' => $category,
                             'price' => $pref['price_max'], 
                             'detail' => $pref['body_html'],
+                            'images' => $pref['images'],
                         ]);
                         break;
                     }

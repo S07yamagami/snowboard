@@ -28,6 +28,9 @@ Route::middleware('auth')->group(function () {
         return view('style');
     });
 
+    Route::get('/result', function () {
+        return view('result');
+    });
     
 });
 
