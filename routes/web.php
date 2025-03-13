@@ -30,7 +30,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/result', function () {
         return view('result');
-    })->name('style');
+    })->name('result');
     
 });
 
