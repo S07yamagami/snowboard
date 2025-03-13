@@ -35,8 +35,11 @@ class getData extends Command
         $step = 1;
         //取得したい商品カテゴリ
         $getCategorys = [
-            'スノーボードブーツ','スノーボードビンディング','オールマウンテン','フリースタイル','フリーライド',
-            
+            'スノーボードブーツ',
+            'スノーボードビンディング',
+            'オールマウンテン',
+            'フリースタイル',
+            'フリーライド',
         ];
 
         while (true) {
@@ -67,7 +70,7 @@ class getData extends Command
                             'category' => $category,
                             'price' => $pref['price_max'], 
                             'detail' => $pref['body_html'],
-                            'images' => $pref['images'],
+                            'image' => $pref['images'][1],
                         ]);
                         break;
                     }

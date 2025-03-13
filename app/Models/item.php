@@ -18,6 +18,6 @@ class item extends Model
         'category',
         'price',
         'detail',
-        'images',
+        'image',
     ];
 }
