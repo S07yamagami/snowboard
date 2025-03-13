@@ -18,19 +18,19 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/home', function () {
         return view('home');
-    });
+    })->name('home');
 
     Route::get('/about', function () {
         return view('about');
-    });
+    })->name('about');
 
     Route::get('/style', function () {
         return view('style');
-    });
+    })->name('style');
 
     Route::get('/result', function () {
         return view('result');
-    });
+    })->name('style');
     
 });
 
