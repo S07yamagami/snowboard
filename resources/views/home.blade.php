@@ -13,9 +13,11 @@
                 限界を超え、新たな自分へ。<br>
                 情熱をともにする”仲間”と、忘れられない瞬間を。
             </p>
-            <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
-                ホームページについて
-            </button>
+            <a href="{{ route('style') }}">
+                <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
+                    ホームページについて
+                </button>
+            </a>
         </div>
     </div>
 </x-app-layout>
